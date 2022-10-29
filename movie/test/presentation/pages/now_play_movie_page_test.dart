@@ -39,7 +39,7 @@ void main() {
     );
   }
 
-  testWidgets('Page should display center progress bar when loading',
+  testWidgets('Page shoul display center progress bar when loading',
           (WidgetTester tester) async {
         when(() => mockNowPlayMovieBloc.state).thenReturn(NowPlayMovieLoading());
 
