@@ -36,7 +36,7 @@ void main() {
     });
   });
 
-  group('remove watchlistTv', () {
+  group('removed watchlistTv', () {
     test('should return success messahge when remove from db', () async {
       when(mockDatabaseHelper.removeTvWatchlist(testTvTable))
           .thenAnswer((_) async => 1);
